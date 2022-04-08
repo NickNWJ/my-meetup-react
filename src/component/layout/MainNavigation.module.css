@@ -1,0 +1,88 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #77002e;
+  padding: 0 3%;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1220.32px) {
+  .logotext {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 976.25px) {
+}
+
+.topleftbanner {
+  display: flex;
+  width: auto;
+  height: 100%;
+}
+
+.logoandtext {
+  height: 100%;
+  display: flex;
+  width: auto;
+}
+
+.logo {
+  background-image: url(facebook.svg);
+  width: 48px;
+  height: 48px;
+  margin: 2px;
+}
+
+.logotext {
+  height: auto;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  margin: 3px 3px 3px 6px;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fcb8d2;
+  border: solid transparent 1px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.topleftbanner a {
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  font-weight: 40;
+  background-color: #be2b64;
+  transition: 0.5s;
+}
+
+.badge {
+  background-color: #cc2062;
+  color: white;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+}
